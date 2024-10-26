@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Drawing App</title>
+    <link rel="stylesheet" href="Proj.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Interactive Grid Drawing App</h1>
+        <p>Draw and explore creativity with ease!</p>
+    </header>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+        <input type="color" id="colorPicker" value="#ff0000">
+        <button id="eraserButton">Eraser</button>
+        <button id="clearButton">Clear Grid</button>
+        <label for="gridSize">Grid Size:</label>
+        <input type="range" id="gridSize" min="5" max="30" value="16">
+        <span id="gridSizeDisplay">16 x 16</span>
+    </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container" id="gridContainer"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Created by <strong>Kissa Zahra</strong></p>
+        <p>Email: <a href="mailto:kissasium@gmail.com">kissasium@gmail.com</a> | GitHub: <a href="https://github.com/kissasium" target="_blank">kissasium</a></p>
+    </footer>
+
+    <script src="Proj.js"></script>
+</body>
+</html>
